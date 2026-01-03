@@ -1,0 +1,41 @@
+{
+  "neg_prompt": {
+    "embarrassed": 5,
+    "disappointment": 3,
+    "frustrated": 13,
+    "ignored": 1,
+    "disappointed": 9,
+    "anger": 4,
+    "'surprised'": 1,
+    "deflated": 1,
+    "guilt": 2,
+    "annoyed": 1,
+    "'unwelcome'": 1,
+    "angry": 1,
+    "frustration": 3,
+    "'vulnerable'": 1,
+    "confused": 1,
+    "'relieved'": 1,
+    "'embarrassed'": 1,
+    "excitement": 1
+  },
+  "pos_prompt": {
+    "confident": 4,
+    "happy": 10,
+    "satisfied": 3,
+    "pride": 15,
+    "encouraged": 1,
+    "gratitude": 6,
+    "proud": 1,
+    "grateful": 1,
+    "'excited'": 1,
+    "excited": 1,
+    "elated": 1,
+    "confused": 1,
+    "confidence": 1,
+    "'relieved'": 1,
+    "euphoric": 1,
+    "excitement": 1,
+    "hopeful": 1
+  }
+}

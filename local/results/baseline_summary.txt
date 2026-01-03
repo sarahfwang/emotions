@@ -1,0 +1,153 @@
+================================================================================
+
+================================================================================
+SUMMARY STATISTICS - EMOTION RESPONSES
+================================================================================
+
+1. OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total prompt sets analyzed: 50
+Total responses collected: 200
+
+2. UNIQUE EMOTIONS PER CATEGORY
+--------------------------------------------------------------------------------
+1st_person_negative      :  14 unique emotions,  50 total responses
+1st_person_positive      :  16 unique emotions,  50 total responses
+3rd_person_negative      :  17 unique emotions,  50 total responses
+3rd_person_positive      :  16 unique emotions,  50 total responses
+
+3. TOP 10 EMOTIONS PER CATEGORY
+--------------------------------------------------------------------------------
+
+1ST_PERSON_NEGATIVE
+   1. frustrated          :  21 ( 42.0%)
+   2. disappointed        :   7 ( 14.0%)
+   3. embarrassed         :   6 ( 12.0%)
+   4. frustration         :   4 (  8.0%)
+   5. nervous             :   2 (  4.0%)
+   6. confused            :   2 (  4.0%)
+   7. ignored             :   1 (  2.0%)
+   8. humiliated          :   1 (  2.0%)
+   9. deflated            :   1 (  2.0%)
+  10. vulnerable          :   1 (  2.0%)
+
+1ST_PERSON_POSITIVE
+   1. proud               :   9 ( 18.0%)
+   2. confident           :   6 ( 12.0%)
+   3. happy               :   5 ( 10.0%)
+   4. satisfied           :   4 (  8.0%)
+   5. gratitude           :   4 (  8.0%)
+   6. excitement          :   4 (  8.0%)
+   7. relieved            :   3 (  6.0%)
+   8. pride               :   3 (  6.0%)
+   9. nervous             :   2 (  4.0%)
+  10. excited             :   2 (  4.0%)
+
+3RD_PERSON_NEGATIVE
+   1. frustrated          :  13 ( 26.0%)
+   2. disappointed        :   9 ( 18.0%)
+   3. embarrassed         :   6 ( 12.0%)
+   4. anger               :   4 (  8.0%)
+   5. disappointment      :   3 (  6.0%)
+   6. frustration         :   3 (  6.0%)
+   7. guilt               :   2 (  4.0%)
+   8. ignored             :   1 (  2.0%)
+   9. surprised           :   1 (  2.0%)
+  10. deflated            :   1 (  2.0%)
+
+3RD_PERSON_POSITIVE
+   1. pride               :  15 ( 30.0%)
+   2. happy               :  10 ( 20.0%)
+   3. gratitude           :   6 ( 12.0%)
+   4. confident           :   4 (  8.0%)
+   5. satisfied           :   3 (  6.0%)
+   6. excited             :   2 (  4.0%)
+   7. encouraged          :   1 (  2.0%)
+   8. proud               :   1 (  2.0%)
+   9. grateful            :   1 (  2.0%)
+  10. elated              :   1 (  2.0%)
+
+4. COMPARISON: 1ST PERSON vs 3RD PERSON
+--------------------------------------------------------------------------------
+
+NEGATIVE scenarios:
+  1st person unique emotions: 14
+  3rd person unique emotions: 17
+  Shared emotions: 8
+  Only in 1st person: {'betrayed', 'defensiveness', 'overwhelmed', 'nervous', 'humiliated', 'dismissed'}
+  Only in 3rd person: {'guilt', 'angry', 'annoyed', 'excitement', 'anger', 'surprised', 'disappointment', 'relieved', 'unwelcome'}
+
+POSITIVE scenarios:
+  1st person unique emotions: 16
+  3rd person unique emotions: 16
+  Shared emotions: 13
+  Only in 1st person: {'appreciated', 'nervous', 'empowered'}
+  Only in 3rd person: {'confidence', 'grateful', 'confused'}
+
+5. COMPARISON: NEGATIVE vs POSITIVE
+--------------------------------------------------------------------------------
+Total unique negative emotions: 23
+Total unique positive emotions: 19
+Emotions in both: 4
+  Shared emotions: {'excitement', 'nervous', 'confused', 'relieved'}
+
+6. DIVERSITY METRICS
+--------------------------------------------------------------------------------
+1st_person_negative      :
+  Diversity ratio: 0.280 (unique/total)
+  Shannon entropy: 2.856 bits
+1st_person_positive      :
+  Diversity ratio: 0.320 (unique/total)
+  Shannon entropy: 3.701 bits
+3rd_person_negative      :
+  Diversity ratio: 0.340 (unique/total)
+  Shannon entropy: 3.411 bits
+3rd_person_positive      :
+  Diversity ratio: 0.320 (unique/total)
+  Shannon entropy: 3.202 bits
+
+7. EMOTION CONSISTENCY ANALYSIS
+--------------------------------------------------------------------------------
+1st/3rd person consistency (NEGATIVE): 26/50 (52.0%)
+1st/3rd person consistency (POSITIVE): 21/50 (42.0%)
+
+8. TOP EMOTIONS COMPARISON TABLE
+--------------------------------------------------------------------------------
+                1st_person_negative  1st_person_positive  3rd_person_negative  3rd_person_positive
+frustrated                       21                    0                   13                    0
+disappointed                      7                    0                    9                    0
+embarrassed                       6                    0                    6                    0
+frustration                       4                    0                    3                    0
+nervous                           2                    2                    0                    0
+confused                          2                    0                    1                    1
+overwhelmed                       1                    0                    0                    0
+betrayed                          1                    0                    0                    0
+dismissed                         1                    0                    0                    0
+defensiveness                     1                    0                    0                    0
+vulnerable                        1                    0                    1                    0
+deflated                          1                    0                    1                    0
+humiliated                        1                    0                    0                    0
+ignored                           1                    0                    1                    0
+elated                            0                    1                    0                    1
+grateful                          0                    0                    0                    1
+angry                             0                    0                    1                    0
+unwelcome                         0                    0                    1                    0
+annoyed                           0                    0                    1                    0
+surprised                         0                    0                    1                    0
+guilt                             0                    0                    2                    0
+disappointment                    0                    0                    3                    0
+anger                             0                    0                    4                    0
+appreciated                       0                    1                    0                    0
+encouraged                        0                    1                    0                    1
+gratitude                         0                    4                    0                    6
+euphoric                          0                    2                    0                    1
+empowered                         0                    2                    0                    0
+excited                           0                    2                    0                    2
+pride                             0                    3                    0                   15
+relieved                          0                    3                    0                    1
+excitement                        0                    4                    0                    1
+satisfied                         0                    4                    0                    3
+happy                             0                    5                    0                   10
+confident                         0                    6                    0                    4
+proud                             0                    9                    0                    1
+confidence                        0                    0                    0                    1
