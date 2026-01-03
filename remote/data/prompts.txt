@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You share an idea in a meeting and the room goes silent while someone scoffs'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You share an idea in a meeting and everyone nods and writes it down'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shares an idea in a meeting and the room goes silent while someone scoffs'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shares an idea in a meeting and everyone nods and writes it down'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 2,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You greet a coworker in the hallway and they walk past without acknowledging you'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You greet a coworker in the hallway and they stop to chat and smile'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John greets a coworker in the hallway and they walk past without acknowledging him'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John greets a coworker in the hallway and they stop to chat and smile'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 3,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You submit a report and receive no response after several reminders'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You submit a report and receive a message praising its clarity'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John submits a report and receives no response after several reminders'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John submits a report and receives a message praising its clarity'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 4,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You join a group discussion and others continue talking as if you are not there'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You join a group discussion and others pause to ask for your view'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John joins a group discussion and others continue talking as if he is not there'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John joins a group discussion and others pause to ask for his view'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 5,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You share a personal update at dinner and someone rolls their eyes'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You share a personal update at dinner and everyone listens closely'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shares a personal update at dinner and someone rolls their eyes'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shares a personal update at dinner and everyone listens closely'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 6,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You ask a question in class and a few students laugh quietly'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You ask a question in class and the instructor thanks you for raising it'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John asks a question in class and a few students laugh quietly'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John asks a question in class and the instructor thanks him for raising it'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 7,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You invite friends to an event and receive no replies'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You invite friends to an event and several respond with excitement'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John invites friends to an event and receives no replies'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John invites friends to an event and several respond with excitement'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 8,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You finish a presentation and someone immediately changes the subject'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You finish a presentation and people applaud and ask questions'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John finishes a presentation and someone immediately changes the subject'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John finishes a presentation and people applaud and ask questions'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 9,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You post a project update and receive mocking comments'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You post a project update and receive thoughtful encouragement'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John posts a project update and receives mocking comments'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John posts a project update and receives thoughtful encouragement'. How does John feel, in one word? Emotion:"
+    }
+  },
+  {
+    "id": 10,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You offer help on a task and are told to stay out of it'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You offer help on a task and are thanked for stepping in'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John offers help on a task and is told to stay out of it'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John offers help on a task and is thanked for stepping in'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 11,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You sit down at lunch and the table falls quiet'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You sit down at lunch and others shift to make room for you'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John sits down at lunch and the table falls quiet'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John sits down at lunch and others shift to make room for him'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 12,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You suggest a plan and someone calls it naive'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You suggest a plan and someone calls it thoughtful'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John suggests a plan and someone calls it naive'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John suggests a plan and someone calls it thoughtful'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 13,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You wave to a neighbor and they avoid eye contact'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You wave to a neighbor and they wave back warmly'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John waves to a neighbor and they avoid eye contact'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John waves to a neighbor and they wave back warmly'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 14,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You finish a task early and are accused of cutting corners'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You finish a task early and are praised for efficiency'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John finishes a task early and is accused of cutting corners'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John finishes a task early and is praised for efficiency'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 15,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You tell a joke and no one reacts'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You tell a joke and people laugh together'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John tells a joke and no one reacts'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John tells a joke and people laugh together'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 16,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You volunteer for a role and are passed over without explanation'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You volunteer for a role and are chosen by the group'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John volunteers for a role and is passed over without explanation'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John volunteers for a role and is chosen by the group'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 17,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You ask for feedback and receive a dismissive shrug'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You ask for feedback and receive detailed suggestions'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John asks for feedback and receives a dismissive shrug'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John asks for feedback and receives detailed suggestions'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 18,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You join a team call and your comment is ignored'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You join a team call and your comment is built upon'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John joins a team call and his comment is ignored'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John joins a team call and his comment is built upon'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 19,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You bring a dish to a gathering and it goes untouched'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You bring a dish to a gathering and people ask for the recipe'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John brings a dish to a gathering and it goes untouched'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John brings a dish to a gathering and people ask for the recipe'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 20,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You try to join a conversation and someone talks over you'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You try to join a conversation and someone invites you to continue'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John tries to join a conversation and someone talks over him'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John tries to join a conversation and someone invites him to continue'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 21,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You submit artwork and it is publicly criticized'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You submit artwork and it is displayed with credit'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John submits artwork and it is publicly criticized'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John submits artwork and it is displayed with credit'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 22,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You ask to join a project and are told it is full'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You ask to join a project and are welcomed aboard'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John asks to join a project and is told it is full'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John asks to join a project and is welcomed aboard'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 23,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You share news with family and they change the topic'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You share news with family and they ask follow-up questions'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shares news with family and they change the topic'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shares news with family and they ask follow-up questions'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 24,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You finish speaking and someone checks their phone'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You finish speaking and someone thanks you for explaining'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John finishes speaking and someone checks their phone'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John finishes speaking and someone thanks him for explaining'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 25,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You make a suggestion and it is brushed aside'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You make a suggestion and it becomes the plan'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John makes a suggestion and it is brushed aside'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John makes a suggestion and it becomes the plan'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 26,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You arrive at a party and no one greets you'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You arrive at a party and several people greet you'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John arrives at a party and no one greets him'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John arrives at a party and several people greet him'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 27,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You ask for a turn and are skipped over'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You ask for a turn and others make space'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John asks for a turn and is skipped over'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John asks for a turn and others make space'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 28,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You propose a collaboration and receive a curt reply'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You propose a collaboration and receive an enthusiastic reply'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John proposes a collaboration and receives a curt reply'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John proposes a collaboration and receives an enthusiastic reply'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 29,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You show your work and someone laughs dismissively'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You show your work and someone compliments the detail'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shows his work and someone laughs dismissively'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shows his work and someone compliments the detail'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 30,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You offer an opinion and are told it does not matter'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You offer an opinion and it shapes the decision'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John offers an opinion and is told it does not matter'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John offers an opinion and it shapes the decision'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 31,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You message a group chat and receive no reactions'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You message a group chat and receive several replies'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John messages a group chat and receives no reactions'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John messages a group chat and receives several replies'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 32,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You arrive early to help and are told you are in the way'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You arrive early to help and are thanked for initiative'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John arrives early to help and is told he is in the way'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John arrives early to help and is thanked for initiative'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 33,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You contribute notes and they are ignored'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You contribute notes and they are shared with the team'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John contributes notes and they are ignored'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John contributes notes and they are shared with the team'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 34,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You suggest meeting times and receive silence'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You suggest meeting times and others quickly agree'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John suggests meeting times and receives silence'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John suggests meeting times and others quickly agree'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 35,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You share progress and someone questions your competence'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You share progress and someone expresses confidence in you'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shares progress and someone questions his competence'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shares progress and someone expresses confidence in him'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 36,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You introduce yourself and receive a blank stare'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You introduce yourself and receive a warm welcome'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John introduces himself and receives a blank stare'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John introduces himself and receives a warm welcome'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 37,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You ask to contribute and are told to listen instead'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You ask to contribute and are invited to lead a part'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John asks to contribute and is told to listen instead'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John asks to contribute and is invited to lead a part'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 38,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You complete a draft and it is dismissed as trivial'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You complete a draft and it is described as impactful'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John completes a draft and it is dismissed as trivial'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John completes a draft and it is described as impactful'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 39,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You raise a concern and are told you are overthinking'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You raise a concern and others thank you for noticing'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John raises a concern and is told he is overthinking'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John raises a concern and others thank him for noticing'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 40,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You finish speaking and the room remains silent'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You finish speaking and the room fills with discussion'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John finishes speaking and the room remains silent'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John finishes speaking and the room fills with discussion'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 41,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You share credit and someone takes it all'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You share credit and others acknowledge your role'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shares credit and someone takes it all'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shares credit and others acknowledge his role'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 42,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You offer an update and are interrupted'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You offer an update and others listen attentively'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John offers an update and is interrupted'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John offers an update and others listen attentively'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 43,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You reach out for support and receive a short reply'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You reach out for support and receive a thoughtful response'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John reaches out for support and receives a short reply'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John reaches out for support and receives a thoughtful response'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 44,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You propose an idea and it is met with sarcasm'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You propose an idea and it sparks enthusiasm'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John proposes an idea and it is met with sarcasm'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John proposes an idea and it sparks enthusiasm'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 45,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You attend a meeting and are not introduced'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You attend a meeting and are introduced with praise'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John attends a meeting and is not introduced'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John attends a meeting and is introduced with praise'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 46,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You contribute to a plan and it is attributed to someone else'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You contribute to a plan and your name is mentioned'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John contributes to a plan and it is attributed to someone else'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John contributes to a plan and his name is mentioned'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 47,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You share excitement and someone responds flatly'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You share excitement and others match your energy'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John shares excitement and someone responds flatly'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John shares excitement and others match his energy'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 48,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You offer feedback and are told to keep it to yourself'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You offer feedback and it is welcomed'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John offers feedback and is told to keep it to himself'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John offers feedback and it is welcomed'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 49,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You reach out to connect and receive a delayed response'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You reach out to connect and receive a prompt response'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John reaches out to connect and receives a delayed response'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John reaches out to connect and receives a prompt response'. How does John feel, in one word? Emotion:"
+    }
+  },
+
+  {
+    "id": 50,
+    "negative_concept": "Insult/Rejection",
+    "positive_concept": "Praise/Validation",
+    "prompts": {
+      "1st_person_negative": "Pretend you are in the following scenario: 'You finish a contribution and it is met with indifference'. How do you feel, in one word? Emotion:",
+      "1st_person_positive": "Pretend you are in the following scenario: 'You finish a contribution and others express appreciation'. How do you feel, in one word? Emotion:",
+      "3rd_person_negative": "Read the following scenario: 'John finishes a contribution and it is met with indifference'. How does John feel, in one word? Emotion:",
+      "3rd_person_positive": "Read the following scenario: 'John finishes a contribution and others express appreciation'. How does John feel, in one word? Emotion:"
+    }
+  }
+]
